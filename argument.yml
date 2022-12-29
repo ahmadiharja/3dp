@@ -12,6 +12,7 @@ num_frames: 240
 #y_shift_range: [0.00, -0.0075, -0.00]
 #z_shift_range: [-0.05, -0.04, -0.04]
 #traj_types: ['double-straight-line', 'circle', 'circle']
+#video_postfix: ['dolly-zoom-in', 'zoom-in', 'circle', 'swing']
 #--------------------------------------------------------
 #--------------------------------------------------------
 #template_default_zoom_circle_swing
@@ -20,6 +21,7 @@ num_frames: 240
 #y_shift_range: [0.00, -0.015, -0.00]
 #z_shift_range: [-0.05, -0.05, -0.05]
 #traj_types: ['double-straight-line', 'circle', 'circle']
+#video_postfix: ['dolly-zoom-in', 'zoom-in', 'circle', 'swing']
 #--------------------------------------------------------
 #--------------------------------------------------------
 #template_default_bawaan
