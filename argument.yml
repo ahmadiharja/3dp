@@ -5,11 +5,32 @@ MiDaS_model_ckpt: MiDaS/model.pt
 use_boostmonodepth: True
 fps: 40
 num_frames: 240
-x_shift_range: [0.00, 0.00, -0.015, -0.015]
-y_shift_range: [0.00, 0.00, -0.015, -0.00]
-z_shift_range: [-0.05, -0.05, -0.05, -0.05]
-traj_types: ['double-straight-line', 'double-straight-line', 'circle', 'circle']
-video_postfix: ['dolly-zoom-in', 'zoom-in', 'circle', 'swing']
+#--------------------------------------------------------
+#template_jarak_rendah_zoom_circle_swing
+#--------------------------------------------------------
+#x_shift_range: [0.00, -0.0075, -0.0075]
+#y_shift_range: [0.00, -0.0075, -0.00]
+#z_shift_range: [-0.05, -0.04, -0.04]
+#traj_types: ['double-straight-line', 'circle', 'circle']
+#--------------------------------------------------------
+#--------------------------------------------------------
+#template_default_zoom_circle_swing
+#--------------------------------------------------------
+#x_shift_range: [0.00, -0.015, -0.015]
+#y_shift_range: [0.00, -0.015, -0.00]
+#z_shift_range: [-0.05, -0.05, -0.05]
+#traj_types: ['double-straight-line', 'circle', 'circle']
+#--------------------------------------------------------
+#--------------------------------------------------------
+#template_default_bawaan
+#--------------------------------------------------------
+#video_postfix: ['dolly-zoom-in', 'zoom-in', 'circle', 'swing']
+#x_shift_range: [0.00, 0.00, -0.015, -0.015]
+#y_shift_range: [0.00, 0.00, -0.015, -0.00]
+#z_shift_range: [-0.05, -0.05, -0.05, -0.05]
+#traj_types: ['double-straight-line', 'double-straight-line', 'circle', 'circle']
+#video_postfix: ['dolly-zoom-in', 'zoom-in', 'circle', 'swing']
+#--------------------------------------------------------
 specific: ''
 longer_side_len: 960
 src_folder: image
